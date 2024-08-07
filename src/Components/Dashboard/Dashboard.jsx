@@ -1,8 +1,8 @@
 import React from 'react'
-
+import NavBar from "../NavBar";
 function Dashboard() {
   return (
-    <div>Dashboard</div>
+    <div className='w-screen overflow-hidden'><NavBar></NavBar></div>
   )
 }
 
